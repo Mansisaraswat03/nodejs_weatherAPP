@@ -22,7 +22,7 @@ const getinfo = async(event) => {
             city_name.innerText =`${arrData[0].name},${arrData[0].sys.country}`;
             temp_real_val.innerText = arrData[0].main.temp;
             const tempMood = arrData[0].weather[0].main;
-            console.log(tempMood);
+            
 
             //cloudy weather check
 
